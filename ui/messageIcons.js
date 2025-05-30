@@ -1,6 +1,6 @@
 // ui/messageIcons.js
 
-import { getContext } from '../../../../script.js'; // Adjust path
+import { getContext } from '../../../script.js'; 
 import { pluginName } from '../core/state.js';
 import { ensureFavoritesArrayExists, addFavorite, removeFavoriteById } from '../core/favoritesManager.js';
 
