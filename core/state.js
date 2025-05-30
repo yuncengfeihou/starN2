@@ -1,6 +1,6 @@
 // core/state.js
 
-export const pluginName = 'star'; // 保持文件夹名称一致
+export const pluginName = 'starN2'; // 保持文件夹名称一致
 
 // --- 新增：预览状态管理 ---
 export const previewState = {
