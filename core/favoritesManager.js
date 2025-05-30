@@ -4,7 +4,7 @@ import {
     getContext,
     saveMetadataDebounced,
 } from '../../../../script.js'; // Adjust path as needed
-import { uuidv4 } from '../../../utils.js';
+import { uuidv4 } from '../../../../utils.js';
 import { pluginName } from './state.js';
 import { getFullChatData, saveSpecificChatMetadata } from './chatIO.js';
 
