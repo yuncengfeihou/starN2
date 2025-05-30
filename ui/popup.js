@@ -11,8 +11,8 @@ import {
     POPUP_TYPE,
     callGenericPopup,
     POPUP_RESULT,
-} from '../../../popup.js';
-import { extension_settings } from '../../../extensions.js';
+} from '../../../../popup.js';
+import { extension_settings } from '../../../../extensions.js';
 import { pluginName } from '../core/state.js';
 import { getAllChatFavoritesForCurrentContext } from '../core/chatIO.js';
 import { removeFavoriteById, updateFavoriteNote, ensureFavoritesArrayExists } from '../core/favoritesManager.js';
